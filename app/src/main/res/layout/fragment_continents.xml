@@ -19,7 +19,7 @@
         android:id="@+id/tlContinents"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="#a0f000"
+        android:background="#d3ceca"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/lineForFooter"
         app:layout_constraintEnd_toEndOf="parent"

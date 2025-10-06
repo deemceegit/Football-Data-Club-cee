@@ -94,13 +94,9 @@ public class ContinentsFragment extends Fragment {
                     imageView.setImageResource(R.drawable.uefa);
                     break;
             }
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(100, 100);
-            imageView.setLayoutParams(params);
+
             tab.setCustomView(imageView);
         }).attach();
-
-
-
 
         return view;
     }

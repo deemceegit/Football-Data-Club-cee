@@ -8,15 +8,37 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="#BBBFB8">
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#5C8F75"
         android:layout_marginTop="20dp"
         app:tabGravity="fill"
-        app:tabMode="fixed"
-        app:tabIndicatorColor="#2F4F3B"/>
+        app:tabMode="fixed">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5C8F75"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabIndicatorColor="#2F4F3B"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FR"
+            app:tabGravity="fill"
+            >
+
+        </Button>
+
+    </LinearLayout>
+
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager2"
         android:layout_width="match_parent"

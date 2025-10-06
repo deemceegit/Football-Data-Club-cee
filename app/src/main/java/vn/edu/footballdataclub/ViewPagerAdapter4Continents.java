@@ -20,7 +20,7 @@ public class ViewPagerAdapter4Continents extends FragmentStateAdapter {
     public Fragment createFragment(int position) {
         switch (position) {
             case 0:
-                return new SudAmericaFragment();
+                return new AsiaFragment();
             case 1:
                 return new AfricaFragment();
             case 2:
@@ -28,7 +28,7 @@ public class ViewPagerAdapter4Continents extends FragmentStateAdapter {
             case 3:
                 return new SudAmericaFragment();
             case 4:
-                return new EuropeRankingFragment();
+                return new EuropeTitleAndRanking();
             default:
                 return new SudAmericaFragment();
         }
