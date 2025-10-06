@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Football Data Club</string>
-    <string name="world_football_soccer_clubs_ranking">World Football / Soccer Clubs Ranking</string>
-    <string name="football_soccer_club_world_ranking">Football / Soccer Club World Ranking</string>
+    <string name="world_football_soccer_clubs_ranking">World Football Clubs Ranking</string>
+    <string name="football_soccer_club_world_ranking">Football Club World Ranking</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="top_10_worldwide_football_clubs">Top 10 Worldwide Football Clubs</string>
@@ -9,11 +9,10 @@
     <string name="club">Club</string>
     <string name="country">Country</string>
     <string name="point">Point</string>
-    <string name="rankAsia">Asia Football / Soccer Clubs Ranking</string>
-    <string name="rankAfrica">Africa Football / Soccer Clubs Ranking</string>
-    <string name="rankNA">North America Football / Soccer Clubs Ranking</string>
-    <string name="rankSA">South America Football / Soccer Clubs Ranking</string>
-    <string name="rankEurope">Europe Football / Soccer Clubs Ranking</string>
-    <string name="no_matches">There is no match :(</string>
+    <string name="rankAsia">Asia Football Clubs Ranking</string>
+    <string name="rankAfrica">Africa Football Clubs Ranking</string>
+    <string name="rankNA">North America Football Clubs Ranking</string>
+    <string name="rankSA">South America Football Clubs Ranking</string>
+    <string name="rankEurope">Europe Football Clubs Ranking</string>
 
 </resources>

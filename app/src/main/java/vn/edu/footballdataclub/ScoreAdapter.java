@@ -1,16 +1,15 @@
 package vn.edu.footballdataclub;
 
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.graphics.Color;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import vn.edu.footballdataclub.R;
 
 import java.util.List;
 
@@ -111,12 +110,12 @@ public class ScoreAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
             Glide.with(ivHome.getContext())
                     .load(hLogo)
-                    .placeholder(R.drawable.ic_team_placeholder)
+                    .placeholder(R.drawable.img_5)
                     .into(ivHome);
 
             Glide.with(ivAway.getContext())
                     .load(aLogo)
-                    .placeholder(R.drawable.ic_team_placeholder)
+                    .placeholder(R.drawable.img_5)
                     .into(ivAway);
 
 

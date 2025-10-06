@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="10dp"
     android:layout_width="match_parent"
     android:layout_height="72dp"
     app:cardCornerRadius="12dp"
-    app:cardBackgroundColor="@color/card_light" >
+    app:cardBackgroundColor="#a4ac82">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -48,7 +48,7 @@
                     android:id="@+id/ivHome"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ic_team_placeholder" />
+                    android:src="@drawable/img1" />
 
                 <TextView
                     android:id="@+id/tvHome"
@@ -81,7 +81,7 @@
                     android:id="@+id/ivAway"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/ic_team_placeholder" />
+                    android:src="@drawable/img_2" />
 
                 <TextView
                     android:id="@+id/tvAway"
@@ -110,4 +110,4 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.cardview.widget.CardView>
+</com.google.android.material.card.MaterialCardView>
