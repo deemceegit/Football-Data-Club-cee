@@ -55,6 +55,8 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation("com.android.volley:volley:1.2.1")
     implementation("com.google.android.material:material:1.9.0")
+    implementation("com.github.bumptech.glide:glide:5.0.5")
+    implementation("com.google.code.gson:gson:2.13.2")
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
