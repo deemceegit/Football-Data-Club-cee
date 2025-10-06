@@ -1,4 +1,4 @@
-package vn.edu.usth.weather;
+package vn.edu.footballdataclub;
 
 import android.os.Bundle;
 

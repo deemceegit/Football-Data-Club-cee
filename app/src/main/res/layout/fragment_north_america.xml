@@ -24,9 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:paddingTop="8dp">
+>
 
             <!-- Card 1 -->
             <androidx.cardview.widget.CardView
@@ -218,7 +216,7 @@
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginEnd="8dp"
-                        android:src="@drawable/america" />
+                        android:src="@drawable/amesrica" />
 
                     <LinearLayout
                         android:layout_width="144dp"

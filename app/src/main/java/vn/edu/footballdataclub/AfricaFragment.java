@@ -1,4 +1,4 @@
-package vn.edu.usth.footballapp;
+package vn.edu.footballdataclub;
 
 import android.os.Bundle;
 
