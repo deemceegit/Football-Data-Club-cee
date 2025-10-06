@@ -18,7 +18,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
             case 1:
                 return new ContinentsFragment();
             case 2:
-                return new north_america();
+                return new MatchApiFragment();
             case 3:
                 return new SettingFragment();
             default:
