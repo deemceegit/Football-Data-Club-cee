@@ -14,5 +14,6 @@
     <string name="rankNA">Classement des clubs de football d\'Amérique du Nord</string>
     <string name="rankSA">Classement des clubs de football d\'Amérique du Sud</string>
     <string name="rankEurope">Classement des clubs de football d\'Europe</string>
+    <string name="no_matches">Ce n\'est pas de match :(</string>
 
 </resources>
