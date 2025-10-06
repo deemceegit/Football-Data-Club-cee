@@ -778,7 +778,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Africa Football / Soccer Clubs Ranking"
+            android:text="@string/rankAfrica"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold"></TextView>
 
@@ -802,7 +802,7 @@
                 android:layout_width="170dp"
                 android:layout_height="match_parent"
                 android:layout_margin="6dp"
-                android:text="Club"
+                android:text="@string/club"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="bold"></TextView>
 
@@ -810,7 +810,7 @@
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
                 android:layout_margin="6dp"
-                android:text="Country"
+                android:text="@string/country"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="bold"></TextView>
 
@@ -818,7 +818,7 @@
                 android:layout_width="90dp"
                 android:layout_height="match_parent"
                 android:layout_margin="6dp"
-                android:text="Points"
+                android:text="@string/point"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textStyle="bold"></TextView>
 

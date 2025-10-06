@@ -9,4 +9,10 @@
     <string name="club">Club</string>
     <string name="country">Country</string>
     <string name="point">Point</string>
+    <string name="rankAsia">Asia Football / Soccer Clubs Ranking</string>
+    <string name="rankAfrica">Africa Football / Soccer Clubs Ranking</string>
+    <string name="rankNA">North America Football / Soccer Clubs Ranking</string>
+    <string name="rankSA">South America Football / Soccer Clubs Ranking</string>
+    <string name="rankEurope">Europe Football / Soccer Clubs Ranking</string>
+
 </resources>

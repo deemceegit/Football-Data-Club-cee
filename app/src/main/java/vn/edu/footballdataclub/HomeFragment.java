@@ -44,16 +44,16 @@ public class HomeFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         List<Club> clubs = new ArrayList<>();
-        clubs.add(new Club(1, "Real Madrid", "Spain", 480, R.drawable.ic_real_madrid, R.drawable.ic_spain));
-        clubs.add(new Club(2, "Inter Milan", "Italy", 469, R.drawable.ic_inter_milan, R.drawable.ic_italy));
-        clubs.add(new Club(3, "Paris Saint-Germain", "France", 462, R.drawable.ic_psg, R.drawable.ic_france));
-        clubs.add(new Club(4, "Barcelona", "Spain", 434 , R.drawable.ic_barcelona, R.drawable.ic_spain));
-        clubs.add(new Club(5, "Bayern Munich", "Germany", 411, R.drawable.ic_bayern_munich, R.drawable.ic_germany));
-        clubs.add(new Club(6, "Chelsea", "England", 386, R.drawable.ic_chelsea, R.drawable.ic_england));
-        clubs.add(new Club(7, "Arsenal", "England", 362, R.drawable.ic_arsenal, R.drawable.ic_england));
-        clubs.add(new Club(8, "Atlético Madrid", "Spain", 361, R.drawable.ic_atletico_madrid, R.drawable.ic_spain));
-        clubs.add(new Club(9, "Borussia Dortmund", "Germany", 349, R.drawable.ic_borussia_dortmund, R.drawable.ic_germany));
-        clubs.add(new Club(10, "Liverpool", "England", 337, R.drawable.ic_liverpool, R.drawable.ic_england));
+        clubs.add(new Club(1, "Real Madrid", "   ESP", 480, R.drawable.ic_real_madrid, R.drawable.ic_spain));
+        clubs.add(new Club(2, "Inter Milan", "   ITA", 469, R.drawable.ic_inter_milan, R.drawable.ic_italy));
+        clubs.add(new Club(3, "Paris Saint-Germain", "   FRA", 462, R.drawable.ic_psg, R.drawable.ic_france));
+        clubs.add(new Club(4, "Barcelona", "   ESP", 434 , R.drawable.ic_barcelona, R.drawable.ic_spain));
+        clubs.add(new Club(5, "Bayern Munich", "   DEU", 411, R.drawable.ic_bayern_munich, R.drawable.ic_germany));
+        clubs.add(new Club(6, "Chelsea", "   ENG", 386, R.drawable.ic_chelsea, R.drawable.ic_england));
+        clubs.add(new Club(7, "Arsenal", "   ENG", 362, R.drawable.ic_arsenal, R.drawable.ic_england));
+        clubs.add(new Club(8, "Atlético Madrid", "   ESP", 361, R.drawable.ic_atletico_madrid, R.drawable.ic_spain));
+        clubs.add(new Club(9, "Borussia Dortmund", "   DEU", 349, R.drawable.ic_borussia_dortmund, R.drawable.ic_germany));
+        clubs.add(new Club(10, "Liverpool", "   ENG", 337, R.drawable.ic_liverpool, R.drawable.ic_england));
         HomeRankingAdapter homeRankingAdapter = new HomeRankingAdapter(clubs);
         recyclerView.setAdapter(homeRankingAdapter);
         return view;

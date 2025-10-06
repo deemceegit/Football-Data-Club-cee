@@ -20,7 +20,7 @@ public class ViewPagerAdapter extends FragmentStateAdapter {
             case 2:
                 return new north_america();
             case 3:
-                return new EuropeRankingFragment();
+                return new SettingFragment();
             default:
                 return new HomeFragment();
         }

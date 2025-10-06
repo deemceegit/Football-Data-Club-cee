@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Football Data Club</string>
+    <string name="world_football_soccer_clubs_ranking">Classement mondial des clubs de football</string>
+    <string name="football_soccer_club_world_ranking">Classement mondial des clubs de football</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_10_worldwide_football_clubs">Top 10 des clubs de football mondiaux</string>
+    <string name="no">No.</string>
+    <string name="club">Club</string>
+    <string name="country">Pays</string>
+    <string name="point">Point</string>
+    <string name="rankAsia">Classement des clubs de football d\'Asie</string>
+    <string name="rankAfrica">Classement des clubs de football d\'Afrique</string>
+    <string name="rankNA">Classement des clubs de football d\'Amérique du Nord</string>
+    <string name="rankSA">Classement des clubs de football d\'Amérique du Sud</string>
+    <string name="rankEurope">Classement des clubs de football d\'Europe</string>
+
+</resources>
